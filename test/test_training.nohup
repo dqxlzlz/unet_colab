@@ -1,0 +1,13 @@
+
+train images/masks shape:
+(20, 1, 565, 565)
+train images range (min-max): 0.0 - 1.0
+train masks are within 0-1
+
+patches per full image: 9500
+
+train PATCHES images/masks shape:
+(190000, 1, 48, 48)
+train PATCHES images range (min-max): 0.0 - 1.0
+Check: final output of the network:
+(None, 2304, 2)
