@@ -73,6 +73,8 @@ def get_unet(n_ch, patch_height, patch_width):
     return model
 
 
+
+
 # Define the neural network gnet
 # you need change function call "get_unet" to "get_gnet" in line 166 before use this network
 def get_gnet(n_ch, patch_height, patch_width):
